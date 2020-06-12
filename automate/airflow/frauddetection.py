@@ -48,7 +48,9 @@ def stopStartStreamingJob():
     remove_shutdown_marker = 'rm -rf /tmp/shutdownmarker'
     os.system(remove_shutdown_marker)
 
-    start_streaming = 'spark-submit --class com.datamantra.spark.jobs.RealTimeFraudDetection.DstreamFraudDetection --name "RealTime Creditcard FraudDetection" --master spark://datamantra:6066 --deploy-mode cluster  --total-executor-cores 1' + ' ' + home + '/frauddetection/spark/fruaddetection-spark.jar' + ' ' + home + '/frauddetection/spark/application-local.conf'
+    start_streaming = 'spark-submit --class com.avichal.spark.jobs.RealTimeFraudDetection.DstreamFraudDetection --name
+    "RealTime Creditcard FraudDetection" --master spark://avichal:6066 --deploy-mode cluster  --total-executor-cores 1'
+    + ' ' + home + '/frauddetection/spark/fruaddetection-spark.jar' + ' ' + home + '/frauddetection/spark/application-local.conf'
     os.system(start_streaming)
 
 
@@ -74,7 +76,9 @@ with DAG(DAG_NAME,
 
     create_model = BashOperator(
         task_id='create_model',
-        bash_command='spark-submit --class com.datamantra.spark.jobs.FraudDetectionTraining --name "Fraud Detection Spark ML Training" --master spark://datamantra:7077  --total-executor-cores 1' + ' ' + home + '/frauddetection/spark/fruaddetection-spark.jar' + ' ' + home + '/frauddetection/spark/application-local.conf',
+        bash_command='spark-submit --class com.avichal.spark.jobs.FraudDetectionTraining --name "Fraud Detection Spark
+        ML Training" --master spark://avichal:7077  --total-executor-cores 1' + ' ' + home +
+        '/frauddetection/spark/fruaddetection-spark.jar' + ' ' + home + '/frauddetection/spark/application-local.conf',
         default_args=default_args)
 
     
