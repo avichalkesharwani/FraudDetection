@@ -2,38 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac6df023-1c60-4876-b41a-b56c1b9dafa8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/FraudDetection.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/automate/airflow/frauddetection.py" beforeDir="false" afterPath="$PROJECT_DIR$/automate/airflow/frauddetection.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manual/sparkFraudDetectionTraining.sh" beforeDir="false" afterPath="$PROJECT_DIR$/manual/sparkFraudDetectionTraining.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manual/sparkImportToCassandraJob.sh" beforeDir="false" afterPath="$PROJECT_DIR$/manual/sparkImportToCassandraJob.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manual/sparkRealtimeFraudDectionDstream.sh" beforeDir="false" afterPath="$PROJECT_DIR$/manual/sparkRealtimeFraudDectionDstream.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manual/sparkRealtimeFraudDectionStructuredSteaming.sh" beforeDir="false" afterPath="$PROJECT_DIR$/manual/sparkRealtimeFraudDectionStructuredSteaming.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/datamantra/cassandra/CassandraConfig.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/avichal/cassandra/CassandraConfig.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/datamantra/cassandra/CassandraDriver.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/avichal/cassandra/CassandraDriver.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/datamantra/cassandra/dao/CreditcardTransactionRepository.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/avichal/cassandra/dao/CreditcardTransactionRepository.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/datamantra/cassandra/dao/KafkaOffsetRepository.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/avichal/cassandra/dao/KafkaOffsetRepository.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/datamantra/cassandra/foreachSink/CassandraSinkForeach.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/avichal/cassandra/foreachSink/CassandraSinkForeach.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/datamantra/config/Config.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/avichal/config/Config.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/datamantra/creditcard/CreditcardEnum.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/avichal/creditcard/CreditcardEnum.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/datamantra/creditcard/Schema.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/avichal/creditcard/Schema.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/datamantra/creditcard/Transaction.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/avichal/creditcard/Transaction.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/datamantra/kafka/KafkaConfig.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/avichal/kafka/KafkaConfig.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/datamantra/kafka/KafkaSource.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/avichal/kafka/KafkaSource.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/datamantra/spark/DataBalancing.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/avichal/spark/DataBalancing.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/datamantra/spark/DataReader.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/avichal/spark/DataReader.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/datamantra/spark/GracefulShutdown.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/avichal/spark/GracefulShutdown.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/datamantra/spark/SparkConfig.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/avichal/spark/SparkConfig.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/datamantra/spark/algorithms/Algorithms.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/avichal/spark/algorithms/Algorithms.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/datamantra/spark/jobs/FraudDetectionTraining.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/avichal/spark/jobs/FraudDetectionTraining.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/datamantra/spark/jobs/IntialImportToCassandra.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/avichal/spark/jobs/IntialImportToCassandra.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/datamantra/spark/jobs/RealTimeFraudDetection/DstreamFraudDetection.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/avichal/spark/jobs/RealTimeFraudDetection/DstreamFraudDetection.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/datamantra/spark/jobs/RealTimeFraudDetection/StructuredStreamingFraudDetection.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/avichal/spark/jobs/RealTimeFraudDetection/StructuredStreamingFraudDetection.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/datamantra/spark/jobs/SparkJob.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/avichal/spark/jobs/SparkJob.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/datamantra/spark/pipeline/BuildPipeline.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/avichal/spark/pipeline/BuildPipeline.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/datamantra/spark/pipeline/FeatureExtraction.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/avichal/spark/pipeline/FeatureExtraction.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/datamantra/testing/SamplePipeline.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/avichal/testing/SamplePipeline.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/datamantra/testing/Streaming.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/avichal/testing/Streaming.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/datamantra/utils/Utils.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/avichal/utils/Utils.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -47,11 +16,11 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/avichal/spark/GracefulShutdown.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-162">
+            <state relative-caret-position="120">
               <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
             </state>
           </provider>
@@ -94,7 +63,7 @@
         <entry file="file://$PROJECT_DIR$/manual/sparkFraudDetectionTraining.sh">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -103,7 +72,7 @@
         <entry file="file://$PROJECT_DIR$/manual/sparkImportToCassandraJob.sh">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
         </entry>
@@ -112,7 +81,7 @@
         <entry file="file://$PROJECT_DIR$/manual/sparkRealtimeFraudDectionDstream.sh">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
-              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
@@ -364,7 +333,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1680" />
     <option name="height" value="982" />
@@ -375,11 +344,12 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="ProjectPane" />
       <pane id="PackagesPane" />
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
@@ -397,7 +367,7 @@
   <component name="SbtLocalSettings">
     <option name="projectSyncType">
       <map>
-        <entry key="$PROJECT_DIR$/../TestScala/scala-dev" value="PREVIEW" />
+        <entry key="$USER_HOME$/TestScala/scala-dev" value="PREVIEW" />
       </map>
     </option>
   </component>
@@ -417,16 +387,13 @@
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="982" extended-state="0" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31379732" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31746033" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -434,14 +401,17 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
   </component>
   <component name="editorHistoryManager">
@@ -468,7 +438,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/avichal/spark/GracefulShutdown.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-162">
+        <state relative-caret-position="120">
           <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
         </state>
       </provider>
@@ -480,33 +450,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/manual/sparkRealtimeFraudDectionStructuredSteaming.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="72" selection-start-line="3" selection-start-column="72" selection-end-line="3" selection-end-column="72" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/deployInLocal.sh">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/manual/sparkRealtimeFraudDectionDstream.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manual/sparkImportToCassandraJob.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manual/sparkFraudDetectionTraining.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/deployToAWS.sh">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/automate/airflow/frauddetection.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -515,11 +463,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/deployInLocal.sh">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/manual/sparkFraudDetectionTraining.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/deployToAWS.sh">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/manual/sparkImportToCassandraJob.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manual/sparkRealtimeFraudDectionDstream.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manual/sparkRealtimeFraudDectionStructuredSteaming.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="72" selection-start-line="3" selection-start-column="72" selection-end-line="3" selection-end-column="72" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/FraudDetection.iml">
       <provider selected="true" editor-type-id="text-editor" />
